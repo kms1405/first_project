@@ -3,12 +3,12 @@ pipeline{
   stages {
     stage("build"){
       steps{
-        echo 'building the app'
+        sh 'jdfjadf'
       }
     }
     stage('test') {
       steps {
-        echo 'testing apppp'
+        sh 'test_first.py'
       }
     }
   }
